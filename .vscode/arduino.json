@@ -1,0 +1,8 @@
+{
+    "programmer": "AVRISP mkII",
+    "board": "esp32:esp32:nodemcu-32s",
+    "configuration": "FlashFreq=80,UploadSpeed=512000",
+    "port": "COM4",
+    "sketch": "WeatherStation\\WeatherStation.ino",
+    "output": "../ArduinoOutput"
+}
