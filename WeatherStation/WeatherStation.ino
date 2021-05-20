@@ -11,7 +11,8 @@
 DHT dht(DHT_PIN, DHT22);
 RTC_DS1307 rtc;
 
-const unsigned long TIME_TO_SLEEP = 5 * 60 - 1;
+const unsigned long TIME_TO_SLEEP = 10 * 60 - 1;
+//const unsigned long TIME_TO_SLEEP = 1;
 
 SDFile myFile;
 String dataString = "";
